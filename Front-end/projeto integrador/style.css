@@ -15,7 +15,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #e91e2f;
+    background-color: #ec505d;
     z-index: 1;
 }
 
@@ -60,7 +60,7 @@ main {
 }
 
 footer {
-    background-color: #ddda0f;
+    background-color: #ebe856;
     padding: 1rem;
     color: #0a0a0a;
     position: sticky;
@@ -99,7 +99,7 @@ footer a {
     display: flex;
     color: #0a0a0a;
     padding: 3rem 3rem;
-    border: 5px solid #e91e2f;
+    border: 5px solid #f15865;
 }
 
 #explainer-equipeTI-content {
@@ -109,7 +109,7 @@ footer a {
 }
 
 #explainer-equipeTI-content > img {
-    width: 80%;    
+    width: 95%;    
 }
 
 #explainer-text{
@@ -152,29 +152,29 @@ a:hover {
 
 #about {
     display: flex;
-    justify-content: center;
-    gap: 3rem;
+    justify-content: space-between;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
-    margin: 5rem 0;
+    margin: 8rem 0;
     padding: 4rem 0;
     color: #050505;
 }
 
 #about > h3 {
-    max-width: 60%;
+    max-width: 55%;
 }
 
 #staffTI-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5rem 0;
-    padding: 3rem 0;
+    margin: 6rem 0;
+    padding: 4rem 0;
 }
 
 #staffTI-container > h2 {
-    margin: 4rem 0;
+    margin: 3rem 0;
     color: rgb(8, 8, 8);
     font-size: 55px;
     margin-bottom: 2rem;
@@ -184,7 +184,7 @@ a:hover {
 #staff {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -192,11 +192,12 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+    width: 380px;
     background-color: #f1eff7;
     color: #020111;
     border-radius: 10px;
     padding: 1rem;
+    gap: 1rem;
 }
 
 #staff > article > img {
