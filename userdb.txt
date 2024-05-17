@@ -1,0 +1,6 @@
+-- database: c:\laragon\www\Project_Farm\database.db
+
+-- Pressione o botão ▷ no canto superior direito da janela para executar todo o arquivo.
+
+SELECT * FROM "table-userdb";
+
